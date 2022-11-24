@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>űrlap elemek</title>
+    <link rel="stylesheet" href="urlap2.css">
+</head>
+<body>
+    <form action="#" method="POST">
+        <label for="inputNev">Felhasználó neve:</label>
+        <input type="text" id="inputNev" name="inputNev" /><br>
+        <label for="szuletesiDatum">Születési dátum:</label>
+        <input type="date" id="szuletesiDatum" name="szuletesiDatum" /><br>
+        <label for="emailAddress">Email cím:</label>
+        <input type="email" id="emailAddress" name="emailAddress" /><br>
+        <label for="jelszo">Jelszó:</label>
+        <input type="password" id="jelszo" name="jelszo" /><br>
+        <label for="Fajl">Feltöltendő fájl:</label>
+        <input type="file" id="Fajl" name="Fajl" /><br>
+        <label for="Feltetelek">Feltöltendő fájl:</label>
+        <input type="checkbox" id="Feltetelek" name="Feltetelek" /><br>
+        <label for="szerencseSzamom">Szerencse Száma:</label>
+        <input type="number" id="szerencseSzamom" name="szerencseSzamom" value="10" min="3" max="69"/><br>
+
+        <input type="submit" id="feldolgozasIndul" name="feldolgozasIndul">
+        <input type="reset">
+    </form>
+</body>
+</html>
